@@ -1,0 +1,139 @@
+/* 
+ **
+ ***  CSS  
+ **
+ */
+
+/* Navbar */
+
+.navbar{
+    height: 60px;
+    width: auto;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+}
+.navlik{
+    margin-right: 10rem;
+}
+
+/* Footer */
+
+.footer{ 
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    top: 88%;
+    width: 100%;
+    text-align: center; 
+}
+
+/* Inicio */
+
+.main-container{
+    margin-bottom: 5rem;
+}
+
+.contenedor-carrusel{
+    box-shadow: 2px 3px 3px black;  
+}
+
+#carouselExampleCaptions{
+    margin: auto;
+    width: 100%;
+    height: 25%;
+    
+}
+
+#carouselExampleCaptions #slide{
+    width: 96rem;
+    height: auto;
+    background-color: transparent;
+}
+
+.carousel-inner>.item {
+    display: none;
+    position: relative;
+    -webkit-transition: .6s ease-in-out left;
+    -o-transition: .6s ease-in-out left;
+    transition: .6s ease-in-out left;
+}
+
+.carousel-inner>.item {
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
+
+#bienvenida{
+    margin:auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+#Titulo-centro{
+    color: greenyellow;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Alyanda', sans-serif;                                                
+    font-size: 5rem;
+}
+
+#Titulo-centro-2{
+    color: rgb(248, 177, 46);
+    text-shadow: 1px 1px 2px black;
+    font-family: 'ParmaPetit', sans-serif;
+    font-size: 3rem;
+}
+
+#Titulo-centro-3{
+    color: rgb(248, 177, 46);
+    text-shadow: 1px 1px 2px black;
+    text-align: right;
+    font-family: 'ParmaPetit', sans-serif;
+    font-size: 3rem;
+}
+
+#bienvenida #parrafo-centro{
+    text-align: justify;
+    margin: auto;
+    padding: 15px;
+    width: 40rem;
+    font-family: 'Times New Roman',serif;
+    font-size: 1.5rem;
+}
+
+#parrafo-centro-3{
+    text-align: right;
+    margin: auto;
+    padding: 10px;
+    width: 70rem;
+    font-family: 'Times New Roman',serif;
+    font-size: 1.5rem;
+}
+#divisor{
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+
+#bienvenida-2{
+    margin:auto;
+    padding: 2rem;
+    text-align: left;
+}
+
+#parrafo-centro{
+    text-align: justify;
+    font-family: 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+
+#derecha #vacaciones{
+    width: 30rem;
+    border-radius: 360px;
+    box-shadow: 0px 0px 11px 3px black;
+    margin-left: 5rem;
+}
