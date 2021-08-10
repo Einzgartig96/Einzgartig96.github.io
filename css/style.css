@@ -24,7 +24,7 @@
 .footer{ 
     background-color: black;
     color: white;
-    position: fixed;
+    position: relative;
     bottom: 0;
     top: 88%;
     width: 100%;
@@ -136,4 +136,87 @@
     border-radius: 360px;
     box-shadow: 0px 0px 11px 3px black;
     margin-left: 5rem;
+}
+
+/* User */
+
+#user-inicial{
+    background-image: url("../img/user_background.jpg");
+    box-shadow: 2px 3px 3px black;
+}
+
+#user-title{
+    margin-left: 5rem;
+    color: greenyellow;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Alyanda', sans-serif;                                                
+    font-size: 5rem;
+}
+
+#user-descrp{
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    margin-left: 5rem;
+    padding: 10px;
+    width: 70rem;
+    font-family: 'Times New Roman',serif;
+    font-size: 1.5rem;
+}
+
+.tz-gallery{
+    padding: 4rem;
+    margin-top: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#habitacion_img{
+    width: 23rem;
+    height: auto;
+    margin-bottom: 1rem;
+    box-shadow: 3px 3px 3px black;
+}
+
+#habitacion_img:hover{
+    box-shadow: 3px 3px 3px greenyellow;
+}
+
+#titulo-habitacion{
+    margin: auto;
+    text-align: left;
+    font-size: 1.5vw;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    text-shadow: 2px 2px 2px black;
+}
+
+#titulo-habitacion:hover{
+    color: rgb(248, 177, 46);
+    text-shadow: 2px 2px 2px black;
+}
+
+#descrip-habitacion{
+    margin: auto;
+    text-align: left;
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    text-shadow: 2px 2px 2px black;
+}
+
+/* Admin */
+
+#admin-inicial{
+    background-image: url("../img/admin_background.jpg");
+    box-shadow: 2px 3px 3px black;
+}
+
+#admin-title{
+    margin-left: 4rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'ParmaPetit', sans-serif;                                      
+    font-size: 5vw;
 }
