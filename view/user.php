@@ -30,6 +30,7 @@
                         <p id="titulo-habitacion"> Habitación 3 </p>
                         <p id="descrip-habitacion">Disponible desde ₡700,000. Ver más...</p>
                     </div>
+                </a>
             </div>
         </div>
         <div class="row">
